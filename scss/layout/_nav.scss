@@ -1,0 +1,23 @@
+.section-nav {
+
+    &__logo{
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+        text-shadow: 0rem 1.5rem 4rem rgba($color-black,.6);
+
+        &--text{
+            width: 60%;
+            display: inline-block;
+            fill: #e50914;
+        }
+    }
+
+    &__btn{
+        position: absolute;
+        right: 6rem;
+        top: 3rem;
+        border-radius: 2px !important;
+        padding: .3rem 1.6rem;
+    }
+}

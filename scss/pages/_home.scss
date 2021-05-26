@@ -1,0 +1,43 @@
+.section{
+    padding: 5rem 0;
+
+    &:not(:last-child){
+        border-bottom: 1rem solid rgba(grey,.3);
+    }
+
+    & img{
+        width: 100%;
+    }
+
+    &-footer{
+        padding: 10rem 0;
+        border-bottom: 5px solid transparent;
+        
+    }
+}
+
+.footer{
+
+    &__ul{        
+        column-count: 4;        
+        column-gap: .2em;
+    }
+
+    &__question{
+        margin-left: 40rem;
+    }
+
+    &__item:link,
+    &__item:active{        
+        color: grey;
+        font-size: 1.4rem;
+        text-decoration: none;
+        padding: 5px;
+        display: inline-block;
+    }
+
+    &__list{
+        list-style-type: none;
+        
+    }
+}

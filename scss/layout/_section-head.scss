@@ -1,0 +1,50 @@
+.section-head{
+    height: 94vh;
+    position: relative;
+
+    &__img{
+        height: 100%;
+        width: 100%;
+        background-position: top;
+        background-size: 100%;
+        background-image: radial-gradient(ellipse at 50%, transparent, $color-black), url('../../img/netflix-background-9-900x506.jpg');
+    }
+}
+
+.heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 1.2;
+
+    &__box{
+        display: table;
+        text-align: center;
+    }
+
+    &__input{
+        width: 50rem;
+        padding: 2.5rem 1rem;
+        border: none;
+        display: table-cell;
+        font-size: 1.6rem;
+        
+        &:focus{
+            border: none;
+        }
+    
+    }
+    &__btn{
+        
+        width: 22.7rem;
+        height: 100%;
+        display: table-cell;
+        border-radius: 0;
+        font-size: 3rem !important;
+        font-weight: 400 !important;
+        line-height: normal;
+        
+    }
+}

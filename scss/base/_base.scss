@@ -1,0 +1,22 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.6rem;
+    color: $color-white;
+    line-height: 1.7;
+    background-color: $color-black;
+
+    & > :not(:last-child){
+        border-bottom: 1rem solid rgba(grey,.3);
+    }
+}
+
