@@ -96,7 +96,7 @@ body {
     width: 100%;
     background-position: top;
     background-size: 100%;
-    background-image: radial-gradient(ellipse at 50%, transparent, #000), url("../../img/netflix-background-9-900x506.jpg"); }
+    background-image: radial-gradient(ellipse at 50%, transparent, #000), url("/img/netflix-background-9-900x506.jpg"); }
 
 .heading {
   position: absolute;
